@@ -1,0 +1,97 @@
+html{
+    font-family: system-ui;
+}
+a{
+    text-decoration: none;
+}
+
+
+/** Tarjetas Restaurante **/
+*{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 10rem;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+body{
+    background-image: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    ),
+    url(img/fondo\ con\ productos.jpg);
+    min-height: 0%;
+    background-size: auto;
+}
+
+.container{
+    display: grid;
+    display: flex;
+    max-width: 1500;
+    margin: 0 auto;
+    grid-template-columns: 1fr,1fr;
+    height: 100vh;
+  }
+  .column-2.carta{
+    display: grid;
+    column-gap: 0rem;
+    row-gap: 0rem;
+    color: black;
+  }
+  
+  .wrap-title-section {
+    text-align: center; /* Centra el título de la sección */
+    margin-bottom: 5px; /* Agrega espacio inferior */
+    margin-top: -10px;
+  }
+
+  .plato-carta{
+    display: flex;
+    align-items: center;
+    border: 0px;
+    border-radius: 20px;
+    color: black;
+  }
+  
+  .img-plato-carta{
+    display: flex;
+    flex-basis:30%;
+    justify-content: center;
+  }
+  
+  .img-plato-carta img{
+    max-width: 100px;
+    max-height: 80px;
+  }
+  
+  .title-plato-carta{
+    border: 0px solid;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    padding: 0.5rem;
+    color: black;    
+  }
+  
+  .precio-plato-carta{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    font-weight: bold;
+  }
